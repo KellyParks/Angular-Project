@@ -1,0 +1,23 @@
+{
+  "name": "angular-project",
+  "homepage": "https://github.com/KellyParks/Angular-Project",
+  "authors": [
+    "Kelly Parks"
+  ],
+  "description": "First AngularJS and AngularUI demo project",
+  "main": "index.html",
+  "keywords": [
+    "AngularJS",
+    "AngularUI",
+    "bank",
+    "account",
+    "demo"
+  ],
+  "license": "No license",
+  "private": true,
+  "dependencies": {
+    "angular-ui": "^0.4.0",
+    "angular": "angularjs#^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}
