@@ -31,6 +31,7 @@ bankAccountApp.config(function($routeProvider) {
 //controllers for the different "pages"
 bankAccountApp.controller("mainController", function($scope){
 	$scope.message = "main page";
+	$scope.currentAmount = "";
 });
 
 bankAccountApp.controller("depositsController", function($scope){

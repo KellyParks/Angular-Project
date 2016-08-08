@@ -3,4 +3,21 @@
 <h1>Chequing Account -- Summary</h1>
 {{ message }}
 
+<p>1. Enter Amount:</p>
+<input type="text" id="enterAmount" ng-model="currentAmount">
+
+<p>Your amount:</p>
+<p id="currentAmount">{{ currentAmount }}</p>
+
+<p>2. Make a Deposit or Withdrawal</p>
+<form>
+<input type="radio" name="transfer" value="deposit"> Deposit<br>
+<input type="radio" name="transfer" value="withdrawal"> Withdrawal<br>
+
+<label>Amount</label>
+<input type="text" id="transferAmount">
+
+<button>Transfer</button>
+
+</form>
 </div>
